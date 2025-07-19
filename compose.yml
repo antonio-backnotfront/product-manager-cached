@@ -3,3 +3,13 @@ services:
     image: redis:8.0.3
     ports:
       - "6379:6379"
+    container_name: redis-container
+  mysql:
+    image: mysql:8.0
+    restart: always
+    ports:
+      - "3306:3306"
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
