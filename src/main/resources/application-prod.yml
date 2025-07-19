@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: product-manager-cached
+  jpa:
+    database: mysql
+  datasource:
+    url:

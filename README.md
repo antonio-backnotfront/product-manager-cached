@@ -25,12 +25,10 @@ Product manager
 </h1>
 <p align="center">Lightweight minimal CRUD API built using <strong>MySql Database</strong> as persistent memory storage 
 and <strong>Redis</strong> as cached memory.</p>
-<p align="center">This is</p>
 
 ---
 
 <p align="center">
-  <a href="#-demo" style="padding-right: 12px;"><strong>Demo</strong></a> •
   <a href="#-how-to-use" style="padding-right: 12px;"><strong>How to use</strong></a> •
   <a href="#-technologies-used" style="padding-right: 12px;"><strong>Technologies used</strong></a> •
   <a href="#-license" style="padding-right: 12px;"><strong>License</strong></a>
@@ -38,7 +36,6 @@ and <strong>Redis</strong> as cached memory.</p>
 
 ---
 
-## Demo
 ## How to use
 ## Technologies used
 ## Licence
