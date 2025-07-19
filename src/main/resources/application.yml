@@ -2,4 +2,4 @@ spring:
   application:
     name: product-manager-cached
   profiles:
-    active: dev
+    active: prod
