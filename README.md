@@ -20,7 +20,7 @@
 
 
 <h1 align="center">
-<img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
+<img align="center" src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
 Product manager
 </h1>
 <p align="center">Lightweight minimal CRUD API built using <strong>MySql Database</strong> as persistent memory storage 
@@ -38,6 +38,23 @@ and <strong>Redis</strong> as cached memory.</p>
 
 ## How to use
 ## Technologies used
+<p>
+    <img alt="Spring" align="center" src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white">
+     - backend framework
+</p>
+<p>
+    <img alt="Redis" align="center" src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white">
+     - in-memory storage used for caching
+</p>
+<p>
+    <img alt="MySql" align="center" src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white">
+- persistent database used for storing users
+</p>
+<p>
+    <img alt="Docker" align="center" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+- platform used to containerize the app and run multiple dependent containers using docker-compose
+</p>
+
 ## Licence
 This is free and unencumbered software released into the public domain.
 
