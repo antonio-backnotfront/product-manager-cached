@@ -5,7 +5,6 @@ import com.example.productmanagercached.dto.ProductDto;
 import com.example.productmanagercached.exception.NotFoundException;
 import com.example.productmanagercached.model.Product;
 import com.example.productmanagercached.repository.ProductRepository;
-import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
@@ -38,7 +37,6 @@ public class ProductService {
 //        cache.put(savedProduct.getId(), dto);
 
         return dto;
-
     }
 
     @Cacheable(value = PRODUCT_CACHE, key = "#productId")
